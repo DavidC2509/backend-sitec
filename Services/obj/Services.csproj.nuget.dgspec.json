@@ -1,0 +1,513 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\MisArchivos\\Trabajo\\pruebaTecnicaFassil\\backend-sitec\\Services\\Services.csproj": {}
+  },
+  "projects": {
+    "D:\\MisArchivos\\Trabajo\\pruebaTecnicaFassil\\backend-sitec\\Core\\CoreBussines\\CoreBussines.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MisArchivos\\Trabajo\\pruebaTecnicaFassil\\backend-sitec\\Core\\CoreBussines\\CoreBussines.csproj",
+        "projectName": "CoreBussines",
+        "projectPath": "D:\\MisArchivos\\Trabajo\\pruebaTecnicaFassil\\backend-sitec\\Core\\CoreBussines\\CoreBussines.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "D:\\MisArchivos\\Trabajo\\pruebaTecnicaFassil\\backend-sitec\\Core\\CoreBussines\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\MisArchivos\\Trabajo\\pruebaTecnicaFassil\\backend-sitec\\Core\\CoreCommand\\CoreCommand.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MisArchivos\\Trabajo\\pruebaTecnicaFassil\\backend-sitec\\Core\\CoreCommand\\CoreCommand.csproj",
+        "projectName": "CoreCommand",
+        "projectPath": "D:\\MisArchivos\\Trabajo\\pruebaTecnicaFassil\\backend-sitec\\Core\\CoreCommand\\CoreCommand.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "D:\\MisArchivos\\Trabajo\\pruebaTecnicaFassil\\backend-sitec\\Core\\CoreCommand\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\MisArchivos\\Trabajo\\pruebaTecnicaFassil\\backend-sitec\\Core\\CoreDomain\\CoreDomain.csproj": {
+                "projectPath": "D:\\MisArchivos\\Trabajo\\pruebaTecnicaFassil\\backend-sitec\\Core\\CoreDomain\\CoreDomain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "MySql.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\MisArchivos\\Trabajo\\pruebaTecnicaFassil\\backend-sitec\\Core\\CoreDomain\\CoreDomain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MisArchivos\\Trabajo\\pruebaTecnicaFassil\\backend-sitec\\Core\\CoreDomain\\CoreDomain.csproj",
+        "projectName": "CoreDomain",
+        "projectPath": "D:\\MisArchivos\\Trabajo\\pruebaTecnicaFassil\\backend-sitec\\Core\\CoreDomain\\CoreDomain.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "D:\\MisArchivos\\Trabajo\\pruebaTecnicaFassil\\backend-sitec\\Core\\CoreDomain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\MisArchivos\\Trabajo\\pruebaTecnicaFassil\\backend-sitec\\Core\\CoreBussines\\CoreBussines.csproj": {
+                "projectPath": "D:\\MisArchivos\\Trabajo\\pruebaTecnicaFassil\\backend-sitec\\Core\\CoreBussines\\CoreBussines.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\MisArchivos\\Trabajo\\pruebaTecnicaFassil\\backend-sitec\\Core\\CoreQuery\\CoreQuery.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MisArchivos\\Trabajo\\pruebaTecnicaFassil\\backend-sitec\\Core\\CoreQuery\\CoreQuery.csproj",
+        "projectName": "CoreQuery",
+        "projectPath": "D:\\MisArchivos\\Trabajo\\pruebaTecnicaFassil\\backend-sitec\\Core\\CoreQuery\\CoreQuery.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "D:\\MisArchivos\\Trabajo\\pruebaTecnicaFassil\\backend-sitec\\Core\\CoreQuery\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.90, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.30, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\MisArchivos\\Trabajo\\pruebaTecnicaFassil\\backend-sitec\\Data\\Data.Command.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MisArchivos\\Trabajo\\pruebaTecnicaFassil\\backend-sitec\\Data\\Data.Command.csproj",
+        "projectName": "Data.Command",
+        "projectPath": "D:\\MisArchivos\\Trabajo\\pruebaTecnicaFassil\\backend-sitec\\Data\\Data.Command.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "D:\\MisArchivos\\Trabajo\\pruebaTecnicaFassil\\backend-sitec\\Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\MisArchivos\\Trabajo\\pruebaTecnicaFassil\\backend-sitec\\Core\\CoreCommand\\CoreCommand.csproj": {
+                "projectPath": "D:\\MisArchivos\\Trabajo\\pruebaTecnicaFassil\\backend-sitec\\Core\\CoreCommand\\CoreCommand.csproj"
+              },
+              "D:\\MisArchivos\\Trabajo\\pruebaTecnicaFassil\\backend-sitec\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\MisArchivos\\Trabajo\\pruebaTecnicaFassil\\backend-sitec\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "MySql.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\MisArchivos\\Trabajo\\pruebaTecnicaFassil\\backend-sitec\\Domain\\Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MisArchivos\\Trabajo\\pruebaTecnicaFassil\\backend-sitec\\Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "D:\\MisArchivos\\Trabajo\\pruebaTecnicaFassil\\backend-sitec\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "D:\\MisArchivos\\Trabajo\\pruebaTecnicaFassil\\backend-sitec\\Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\MisArchivos\\Trabajo\\pruebaTecnicaFassil\\backend-sitec\\Core\\CoreDomain\\CoreDomain.csproj": {
+                "projectPath": "D:\\MisArchivos\\Trabajo\\pruebaTecnicaFassil\\backend-sitec\\Core\\CoreDomain\\CoreDomain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\MisArchivos\\Trabajo\\pruebaTecnicaFassil\\backend-sitec\\Services\\Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MisArchivos\\Trabajo\\pruebaTecnicaFassil\\backend-sitec\\Services\\Services.csproj",
+        "projectName": "Services",
+        "projectPath": "D:\\MisArchivos\\Trabajo\\pruebaTecnicaFassil\\backend-sitec\\Services\\Services.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "D:\\MisArchivos\\Trabajo\\pruebaTecnicaFassil\\backend-sitec\\Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\MisArchivos\\Trabajo\\pruebaTecnicaFassil\\backend-sitec\\Core\\CoreQuery\\CoreQuery.csproj": {
+                "projectPath": "D:\\MisArchivos\\Trabajo\\pruebaTecnicaFassil\\backend-sitec\\Core\\CoreQuery\\CoreQuery.csproj"
+              },
+              "D:\\MisArchivos\\Trabajo\\pruebaTecnicaFassil\\backend-sitec\\Data\\Data.Command.csproj": {
+                "projectPath": "D:\\MisArchivos\\Trabajo\\pruebaTecnicaFassil\\backend-sitec\\Data\\Data.Command.csproj"
+              },
+              "D:\\MisArchivos\\Trabajo\\pruebaTecnicaFassil\\backend-sitec\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\MisArchivos\\Trabajo\\pruebaTecnicaFassil\\backend-sitec\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

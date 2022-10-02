@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "FDNR+9wrvqAF8U7qpi2rP27U6j9gYrq/nU0f5eoPzEhKftoSWVbWsmb60M+SL/3JpQciJQp+Gf6KPqA1SOS08A==",
+  "success": true,
+  "projectFilePath": "D:\\MisArchivos\\Trabajo\\pruebaTecnicaFassil\\backend-sitec\\Domain\\Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Usuario\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

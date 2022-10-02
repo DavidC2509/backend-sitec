@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net5.0</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Core\CoreDomain\CoreDomain.csproj" />
+
+	</ItemGroup>
+	
+	<ItemGroup>
+		<Folder Include="Entities\External\" />
+		<Folder Include="Models\" />
+	</ItemGroup>
+	
+	<ItemGroup>
+		<ProjectReference Include="..\Core\CoreDomain\CoreDomain.csproj" />
+	</ItemGroup>
+	
+	<ItemGroup>
+		<PackageReference Include="MediatR" Version="11.0.0" />
+	</ItemGroup>
+
+</Project>
