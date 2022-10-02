@@ -21,3 +21,4 @@ D:\MisArchivos\Trabajo\pruebaTecnicaFassil\backend-sitec\Core\CoreBussines\obj\D
 D:\MisArchivos\Trabajo\pruebaTecnicaFassil\backend-sitec\Core\CoreBussines\obj\Debug\net5.0\CoreBussines.dll
 D:\MisArchivos\Trabajo\pruebaTecnicaFassil\backend-sitec\Core\CoreBussines\obj\Debug\net5.0\ref\CoreBussines.dll
 D:\MisArchivos\Trabajo\pruebaTecnicaFassil\backend-sitec\Core\CoreBussines\obj\Debug\net5.0\CoreBussines.pdb
+D:\MisArchivos\Trabajo\pruebaTecnicaFassil\backend-sitec\Core\CoreBussines\obj\Debug\net5.0\CoreBussines.csprojAssemblyReference.cache

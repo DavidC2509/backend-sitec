@@ -14,7 +14,6 @@ namespace Domain.Entities.ProductAggregate
         /// <summary>
         /// Identificador del registro.
         /// </summary>
-
         public override int Id { get; protected set; }
         public string Name { get; set; }
         public string Descripcion { get; set; }
@@ -26,9 +25,6 @@ namespace Domain.Entities.ProductAggregate
         /// <summary>
         /// Constructor de clase.
         /// </summary>        
-        /// <param name="name">Identificador de dato de compañia.</param>
-        /// <param name="price">Codigo de sistema.</param>
-
         internal Product(string name,string descripcion, double price,bool status, int id = default) : this()
         {
             Id = id;

@@ -33,9 +33,6 @@ namespace Domain.Entities.WarehouseProductAggregate
         /// <summary>
         /// Constructor de clase.
         /// </summary>        
-        /// <param name="name">Identificador de dato de compañia.</param>
-        /// <param name="price">Codigo de sistema.</param>
-
         internal WarehouseProduct(int warehouseId, int productId, int count, int id = default) : this()
         {
             Id = id;

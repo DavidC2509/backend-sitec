@@ -41,23 +41,24 @@ namespace AuthBackend
             string connectionStr;
             connectionStr = default; // Environment.GetEnvironmentVariable("DB_CONNECTION");
 
-            /*services.AddAuthentication(x =>
+            services.AddAuthentication(x =>
             {
                 x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
                 x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
             })
-        .AddJwtBearer(x =>
-        {
-            x.RequireHttpsMetadata = false;
-            x.SaveToken = true;
-            x.TokenValidationParameters = new TokenValidationParameters
-            {
-                ValidateIssuerSigningKey = true,
-                IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["Jwt:Key"])),
-                ValidateIssuer = false,
-                ValidateAudience = false
-            };
-        });*/
+                .AddJwtBearer(x =>
+                {
+                    x.RequireHttpsMetadata = false;
+                    x.SaveToken = true;
+                    x.TokenValidationParameters = new TokenValidationParameters
+                    {
+                        ValidateIssuerSigningKey = true,
+                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["Jwt:Key"])),
+                        ValidateIssuer = false,
+                        ValidateAudience = false
+                    };
+                });
+
             services.AddControllers();
             services.AddAutoMapper(typeof(Startup));
             services.AddMvc().AddFluentValidation();
@@ -107,6 +108,7 @@ namespace AuthBackend
 
 
             });
+
             services.AddCors(options =>
             {
                 options.AddDefaultPolicy(
@@ -195,8 +197,7 @@ namespace AuthBackend
 
             app.UseCors();
 
-            app.UseAuthentication();
-            app.UseAuthorization();
+
 
             app.UseEndpoints(endpoints =>
             {

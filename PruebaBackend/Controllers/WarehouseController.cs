@@ -20,14 +20,14 @@ namespace Api.Controllers
 
 
         ///<summary>
-        ///Guardar una factura de seguro
+        ///Guardar un almacen
         ///</summary>
         [HttpPost()]
         public Task<ActionResult<int>> ProductStore([FromBody] CreateWarehouseCommand command) => SendRequest(command);
 
 
         ///<summary>
-        ///Actualiza un Product
+        ///Actualiza un almacen
         ///<param name="id">Identificador de la entidad a editar</param>
         ///</summary>
         [HttpPut("{id}/update")]
@@ -40,7 +40,7 @@ namespace Api.Controllers
 
 
         ///<summary>
-        ///Guardar una factura de seguro
+        ///Elemina un almacen
         ///<param name="id">Identificador de la entidad a editar</param>
         ///</summary>
         [HttpDelete("{id}/delete")]
@@ -53,7 +53,7 @@ namespace Api.Controllers
         }
 
         ///<summary>
-        ///Guardar una factura de seguro
+        ///Listado Almacen
         ///</summary>
         [HttpGet("list")]
         public Task<ActionResult<IEnumerable<WarehouseModel>>> ListProduct() => SendRequest(new ListWarehouseQuery());

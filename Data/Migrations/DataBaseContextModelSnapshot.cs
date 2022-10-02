@@ -54,10 +54,6 @@ namespace Data.Command.Migrations
                         .HasColumnType("tinyint(1)")
                         .HasColumnName("bStatus");
 
-                    b.Property<int>("UserCode")
-                        .HasColumnType("int")
-                        .HasColumnName("nUsercode");
-
                     b.HasKey("Id");
 
                     b.ToTable("fassil_Product");
@@ -88,10 +84,6 @@ namespace Data.Command.Migrations
                         .HasColumnType("tinyint(1)")
                         .HasColumnName("bStatus");
 
-                    b.Property<int>("UserCode")
-                        .HasColumnType("int")
-                        .HasColumnName("nUsercode");
-
                     b.HasKey("Id");
 
                     b.ToTable("fassil_Warehouse");
@@ -115,10 +107,6 @@ namespace Data.Command.Migrations
                     b.Property<int>("ProductId")
                         .HasColumnType("int")
                         .HasColumnName("nProductId");
-
-                    b.Property<int>("UserCode")
-                        .HasColumnType("int")
-                        .HasColumnName("nUsercode");
 
                     b.Property<int>("WarehouseId")
                         .HasColumnType("int")
@@ -155,10 +143,6 @@ namespace Data.Command.Migrations
                     b.Property<double>("PriceSell")
                         .HasColumnType("double")
                         .HasColumnName("nPriceSell");
-
-                    b.Property<int>("UserCode")
-                        .HasColumnType("int")
-                        .HasColumnName("nUsercode");
 
                     b.Property<int>("WarehouseProductId")
                         .HasColumnType("int")

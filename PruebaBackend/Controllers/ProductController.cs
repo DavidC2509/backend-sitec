@@ -27,7 +27,7 @@ namespace Api.Controllers
 
 
         ///<summary>
-        ///Actualiza un Product
+        ///Actualiza un Producto
         ///<param name="id">Identificador de la entidad a editar</param>
         ///</summary>
         [HttpPut("{id}/update")]
@@ -40,7 +40,7 @@ namespace Api.Controllers
 
 
         ///<summary>
-        ///Guardar una factura de seguro
+        ///Elemina un producto
         ///<param name="id">Identificador de la entidad a editar</param>
         ///</summary>
         [HttpDelete("{id}/delete")]
@@ -53,13 +53,14 @@ namespace Api.Controllers
         }
 
         ///<summary>
-        ///Guardar una factura de seguro
+        ///Listado Producto
         ///</summary>
         [HttpGet("list")]
         public Task<ActionResult<IEnumerable<ProductModels>>> ListProduct() => SendRequest(new ListProductQuery());
 
         ///<summary>
-        ///Guardar una factura de seguro
+        ///Obtiene un solo producto
+        ///<param name="id">Identificador de la entidad a obtener</param>
         ///</summary>
         [HttpGet("{id}")]
         public Task<ActionResult<ProductModels>> GetProduct(int id) => SendRequest(new GetByProductQuery(id));

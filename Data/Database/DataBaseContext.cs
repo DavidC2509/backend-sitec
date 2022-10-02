@@ -39,7 +39,7 @@ namespace Data.Database
             }
         }
         /// <summary>
-        /// Reemplazo del OnModelCreating, dado que se ha selleado dicho método. Todos los registrosd e entidades deberían hacerse aquí
+        /// Todo los registros de las entidades se hacen aqui con sus configuraciones
         /// </summary>
         /// <param name="modelBuilder">Constructor de modelos</param>
         protected override void OnPreModelCreating(ModelBuilder modelBuilder)

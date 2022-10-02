@@ -20,7 +20,6 @@ namespace Data.Command.Migrations
                     nPrice = table.Column<double>(type: "double", nullable: false),
                     nPriceIva = table.Column<double>(type: "double", nullable: false),
                     bStatus = table.Column<bool>(type: "tinyint(1)", nullable: false),
-                    nUsercode = table.Column<int>(type: "int", nullable: false),
                     dCompDate = table.Column<DateTime>(type: "datetime", nullable: false)
                 },
                 constraints: table =>
@@ -37,7 +36,6 @@ namespace Data.Command.Migrations
                     sName = table.Column<string>(type: "text", nullable: false),
                     sPlace = table.Column<string>(type: "text", nullable: false),
                     bStatus = table.Column<bool>(type: "tinyint(1)", nullable: false),
-                    nUsercode = table.Column<int>(type: "int", nullable: false),
                     dCompDate = table.Column<DateTime>(type: "datetime", nullable: false)
                 },
                 constraints: table =>
@@ -54,7 +52,6 @@ namespace Data.Command.Migrations
                     nProductId = table.Column<int>(type: "int", nullable: false),
                     nWarehouseId = table.Column<int>(type: "int", nullable: false),
                     nCount = table.Column<int>(type: "int", nullable: false),
-                    nUsercode = table.Column<int>(type: "int", nullable: false),
                     dCompDate = table.Column<DateTime>(type: "datetime", nullable: false)
                 },
                 constraints: table =>
@@ -84,7 +81,6 @@ namespace Data.Command.Migrations
                     dDateSell = table.Column<DateTime>(type: "datetime", nullable: false),
                     nCountSell = table.Column<int>(type: "int", nullable: false),
                     nPriceSell = table.Column<double>(type: "double", nullable: false),
-                    nUsercode = table.Column<int>(type: "int", nullable: false),
                     dCompDate = table.Column<DateTime>(type: "datetime", nullable: false)
                 },
                 constraints: table =>

@@ -20,14 +20,14 @@ namespace Api.Controllers
 
 
         ///<summary>
-        ///Guardar una factura de seguro
+        ///Añade un producto al almacen
         ///</summary>
         [HttpPost()]
         public Task<ActionResult<int>> WarehouseProductStore([FromBody] AddProductByWarehouseCommand command) => SendRequest(command);
 
 
         ///<summary>
-        ///Actualiza un Product
+        ///Vende un producto de una cantidad
         ///<param name="id">Identificador de la entidad a editar</param>
         ///</summary>
         [HttpPost("{id}/sale")]
@@ -39,7 +39,7 @@ namespace Api.Controllers
         }
 
         ///<summary>
-        ///Actualiza un Product
+        ///Actualiza la cantidad del producto
         ///<param name="id">Identificador de la entidad a editar</param>
         ///</summary>
         [HttpPut("{id}")]

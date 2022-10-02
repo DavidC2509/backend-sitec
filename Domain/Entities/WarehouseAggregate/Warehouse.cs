@@ -24,9 +24,6 @@ namespace Domain.Entities.WarehouseAggregate
         /// <summary>
         /// Constructor de clase.
         /// </summary>        
-        /// <param name="name">Identificador de dato de compañia.</param>
-        /// <param name="price">Codigo de sistema.</param>
-
         internal Warehouse(string name, string place, bool status, int id = default) 
         {
             Id = id;
