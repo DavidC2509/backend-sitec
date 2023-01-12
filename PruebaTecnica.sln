@@ -27,6 +27,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Data.Command", "Data\Data.C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Data.Query", "Data.Query\Data.Query.csproj", "{9B91D560-51BA-480B-BF71-3B82FD937799}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiTest", "ApiTest\ApiTest.csproj", "{97A9CE53-54D1-453F-B6DA-34AC79DEA363}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -77,6 +79,10 @@ Global
 		{9B91D560-51BA-480B-BF71-3B82FD937799}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B91D560-51BA-480B-BF71-3B82FD937799}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B91D560-51BA-480B-BF71-3B82FD937799}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97A9CE53-54D1-453F-B6DA-34AC79DEA363}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97A9CE53-54D1-453F-B6DA-34AC79DEA363}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97A9CE53-54D1-453F-B6DA-34AC79DEA363}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97A9CE53-54D1-453F-B6DA-34AC79DEA363}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
